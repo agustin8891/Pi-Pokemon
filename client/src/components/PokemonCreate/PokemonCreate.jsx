@@ -264,42 +264,6 @@ export default function PokemonCreate(){
                                 </select>
                 </div>
 
-adfsadfafaffasf
-                <div className={styles.order}>
-                        <label className={styles.label}>Type 1:</label>
-                        <select
-                          className={styles.select}
-                          onChange={(e) => handleSelect1(e)}
-                        >
-                          {types.length &&
-                            types.map((t) => (
-                              <option key={t.name} value={t.name}>
-                                {t.name}
-                              </option>
-                            ))}
-                        </select>
-                </div>
-                <div className={styles.order}>
-                        <label className={styles.label}>Type 2:</label>
-                        <select
-                          className={styles.select}
-                          onChange={(e) => handleSelect2(e)}
-                        >
-                          {types.length &&
-                            types.map((t) => (
-                              <option key={t.name} value={t.name}>
-                                {t.name}
-                              </option>
-                            ))}
-                        </select>
-                </div>
-                <div>
-                  {input.types[0] === input.types[1] && (
-                    <p className={styles.error}>Types can not be equal</p>
-                  )}
-                </div>
-               
-
                 <div className={styles.estiloDivUltimo}>
                 <div className={styles.estiloLabel}><label>Type2:</label></div>
                   <select
