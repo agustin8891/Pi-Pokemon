@@ -1,0 +1,34 @@
+.principal{
+    margin:0px;
+    background-image: url(./Pokemon-Landing.jpeg); 
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 1600px;
+    background-size: cover; 
+}
+
+
+
+.boton{
+    padding:20px;
+    margin-top: 450px;
+    margin-left:150px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #AA3939;    
+    position:relative;
+    display:inline-block;
+    padding:0px;
+    font-size:15px;
+   }
+
+.boton:hover{
+   background-color: #992424;    
+    
+}   
+
+
+
+
+   

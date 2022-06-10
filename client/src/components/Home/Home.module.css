@@ -1,0 +1,166 @@
+body{
+    background-color: grey;
+}
+
+.padreTop{
+  display:flex;
+}
+
+.LinkClase{
+ padding-top:30px;
+  width:300px;
+  margin:5px;
+}
+
+
+.filtrosyPaginado {
+  font-size:5px;
+  width:1200px;
+}
+
+a{
+   font-size:30px;
+  cursor: pointer;
+}
+
+nav{
+  height:50px;
+}
+
+
+li{
+  border-radius: 2px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: darkgrey;
+  color: white;
+  margin: 4px;
+  background-color:#AA6C39;
+}
+
+.padreDeFiltros {
+  font-size:50px;
+  width:1200px;
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+.ataqueClase{
+  margin:2px;
+  font-size:18px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+}
+
+.abcClase {
+  justify-content: space-between;
+  font-size:18px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+}
+
+.tipoClase { 
+  font-size:18px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+  }
+
+.creadosClase{
+  margin:2px;
+  font-size:18px;
+  padding-top:20px;
+    display:flex;
+  flex-direction:column;
+
+}
+
+select{
+  width:170px;
+  margin:20px;
+  height:30px;
+  cursor: pointer;
+}
+
+
+
+.LabelPagina{
+  font-size:20px !important;
+  margin-top:25px;
+}
+
+.paginadoClase{
+  font-size:18px;
+  margin:0px;
+  height:80px;
+  display:flex;
+  justify-content:center;
+
+}
+
+.paginasClase{
+  margin-top:0px;
+  padding:0px;
+}
+
+
+.searchBarClase{
+  font-size:5px;
+}
+
+.padreDeCards{
+    gap:20px;
+   display:flex;
+   width: 1200px;
+   margin-left:300px;
+   margin-top:50px;
+   flex-wrap: wrap;
+   justify-content: center;
+       text-decoration: none;
+       background-color:GREY;
+}
+
+
+.boton{
+  padding:0px;
+  margin:center;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #AA6C39;    
+  position:relative;
+  display:inline-block;
+  padding: 0; 
+  border:1px solid #ccc;  
+  text-align: center;
+ }
+
+ .boton:hover{
+  background-color: #AA3939;    
+ 
+}   
+
+
+
+.padreDeCards > fragment {
+    width: 280px;
+    border:1px solid #ccc;  
+    box-shadow: 2px 2px 2px 2px #ccc;
+    text-align: center;
+         
+}
+
+.padreDeCards > fragment:hover { 
+    background-color:#AA3939  ;
+
+} 
+
+
+fragment{
+  background-color:#AA6C39;
+}
+

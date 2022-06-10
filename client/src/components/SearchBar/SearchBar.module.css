@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(194, 187, 95);
+}
+
+.divBuscar{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    margin-right:0px;
+    margin-left:0px;
+    padding-top:10px;
+
+}
+
+.buscarClase{
+    width:250px;
+    height:30px;
+    margin-top:20px;
+}
+
+.botonBuscar{
+    padding:0px;
+    margin-top: 20px;
+    margin-left:0px;
+    width: 258px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #AA6C39;    
+    position:relative;
+    display:inline-block;
+    padding: 0; 
+    border:1px solid #ccc;  
+    text-align: center;
+   }
+  
+   .botonBuscar:hover{
+    background-color: #AA3939;    
+   }
